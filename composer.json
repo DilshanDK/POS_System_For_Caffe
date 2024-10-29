@@ -1,0 +1,19 @@
+{
+    "name": "pos_system",
+    "description": "A point of sale system for my business.",
+    "type": "project",
+    "require": {
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myvendor\\PosSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dilshan Kumara",
+            "email": "Dilshanhp31@gmail.com"
+        }
+    ]
+}

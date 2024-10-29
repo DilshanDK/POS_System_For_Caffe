@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.hero{
+    padding-bottom: 75px;
+    background-image: url('first.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#logfrm {
+    margin: 0 0px 0 -10px;
+    border: 0;
+    border-radius: 30px;
+    background-color: white;
+    width: 120px;
+    transition: 0.3s;
+
+}
+
+#regfrm {
+    border: 0;
+    width: 120px;
+    border-radius: 30px;
+    margin-right: -5px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.fom {
+    padding: 0px 0px 20px 10px ;
+    width: 400px;
+    backdrop-filter: blur(6px);
+    position: relative;
+    margin: 4% auto;
+    background-color: transparent;
+    filter: drop-shadow(2px);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.4s;
+    border: 1px solid white;
+}
+
+.btnbox {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.input-g {
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.in {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    border-radius: 15px;
+
+}
+
+.frmbtn {
+    font-size: 15px;
+    width: 80%;
+    height: 35px;
+    border-radius: 25px;
+    margin: 10px 43px;
+    border-color: white;
+    display: block;
+    
+    text-align: center
+}
+.frmbtn:hover{
+    background-color: #272727;
+    color: white;
+}
+
+#log {
+    left: 50px;
+}
+
+#reg {
+    left: 440px;
+}
+
+#success {
+    color: black;
+    position: absolute;
+    left: 45px;
+    top: -40px;
+    padding: 5px 30px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    display: none;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: #a88380;
+}
+.logout:hover{
+    background-color: black;
+    color: white;
+}
+.hi{
+    float: right;   
+    margin: 25px -15px;
+}
+
+.check{
+    margin: 10px;
+    color: aliceblue
+}
+label{
+    color: antiquewhite;
+    margin-left: 110px;
+    font-weight: bolder;
+}
+.foot{
+    width: 100%;
+    height: 70px;
+    background-color: #272727;
+}
